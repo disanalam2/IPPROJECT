@@ -1,65 +1,52 @@
-# 🏫 Firayalal Public School Website
+<div align="center">
+  <h1>🏫 Educational Institution & School Website Template</h1>
+  <p>A comprehensive, fully responsive web template designed for schools, colleges, and educational institutions.</p>
 
-A fully responsive, static school website built for Firayalal Public School. This project showcases a multi-page architecture using HTML, CSS, JavaScript, and Bootstrap, with seamless deployment via Firebase Hosting.
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://disanalam-project-school.web.app)
+  [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](#)
+  [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](#)
+</div>
 
-## 🌟 Overview
+## 📖 Overview
 
-This project simulates a complete school web portal. It is organized into multiple sections, including Admissions, Academics, Infrastructure, and Media. The main layout utilizes `iframe` elements to render content dynamically within a consistent dashboard interface, offering a smooth user experience.
+This project is an expansive educational institution web template crafted to provide an optimal digital experience for prospective students, parents, and faculty members alike. It features distinct, easy-to-navigate sections for academics, admissions, and campus life.
 
 ## ✨ Key Features
 
-- **Comprehensive Navigation:** Multi-page layout covering School Information, Admissions, Academics, Extracurriculars, Infrastructure, Media, and Notice Board.
-- **Dashboard Layout:** Main landing page uses `iframe` elements for seamless content rendering without full page reloads.
-- **Quick Access Sidebar:** Easy access to `Login`, `Register`, `Get in Touch`, and `CCTV` sections.
-- **Responsive Design:** Mobile-friendly burger menu and collapsible side panels powered by custom JavaScript.
-- **Firebase Integration:** Pre-configured with Firebase Web SDK, Firebase Analytics, and Firebase Hosting.
-- **Content Protection:** Basic content protection implemented by disabling right-click interactions.
+- **Multi-Persona Navigation:** Intuitive UI/UX and mega-menus designed specifically for different user roles (Students, Parents, Teachers).
+- **Responsive Data Tables:** Complex academic schedules and fee structures gracefully adapt to mobile devices without breaking the layout.
+- **Component Reusability:** Modular UI components (like cards and headers) ensuring a uniform design language and easier future maintenance.
+- **Fast Performance:** Optimized assets and lightweight styling for rapid page loads.
 
-## 🛠️ Technologies Used
+## 🛠 Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+), Bootstrap, jQuery (CDN)
-- **Backend/Hosting:** Firebase Web SDK, Firebase Analytics, Firebase Hosting
-
-## 📂 Project Structure
-
-```text
-├── index.html           # Main website entry point with menu and iframe layout
-├── HTML/                # Inner page templates loaded inside iframes
-├── CSS/                 # Custom styles for main pages and iframe content
-├── JAVA SCRIPT/         # Custom JS files for interactions and menu toggling
-├── TOP LINK PAGE/       # Top navigation content pages (About, Admissions, etc.)
-├── public/              # Deploy-ready public folder for Firebase Hosting
-└── firebase.json        # Firebase Hosting configuration
-```
+- **Frontend:** React, HTML5, CSS3, JavaScript (ES6+)
+- **Hosting/Deployment:** Firebase Hosting
+- **Design:** Custom Responsive Web Design
 
 ## 🚀 Getting Started
 
-To run this project locally, you don't need any complex build tools since it's a static site.
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-1. **Clone the repository:**
+### Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/disanalam2/SchoolWebsite.git
    ```
-2. **Open the project:**
-   Simply open `index.html` in your preferred web browser. 
-   *Alternatively, use a local development server like VS Code Live Server for the best experience.*
-
-## 🌐 Deployment
-
-This website is optimized for Firebase Hosting.
-
-1. Install the Firebase CLI:
+2. Navigate to the project directory:
    ```bash
-   npm install -g firebase-tools
+   cd SchoolWebsite
    ```
-2. Login and deploy:
+3. Install dependencies:
    ```bash
-   firebase login
-   firebase deploy
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
    ```
 
-## 📝 Notes
-
-- The project loads Firebase SDK modules directly via the official CDN.
-- Although a `package-lock.json` is present, the site is primarily static and does not require a Node.js build pipeline.
-- The repository contains development files in the root and production-ready files in the `public/` directory.
+## 🔗 Live Demo
+Check out the live production build here: **[Live Demo](https://disanalam-project-school.web.app)**
